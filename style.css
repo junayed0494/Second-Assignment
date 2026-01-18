@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn{
+    background-image: linear-gradient(22.64deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248));
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.50rem;
+    border-radius: 10000px;
+    padding:12px 20px; 
+    border: none;
+}
+
+nav{ border-bottom: 1px solid rgb(69, 67, 67);
+    max-width: 1600;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 200px;
+}
+
+.logo{
+    font-size: 2rem;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+
+.logo span{
+    background:linear-gradient(to top, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+    -webkit-background-clip:text;
+    background-clip: text;
+    color: transparent;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:32px;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 120%;
+    font-family: "Inter", sans-serif;
+}
+
+
+
+
+header{
+    background-color: #1a0b2e;
+}
+
+.banner-container{
+    border: 1px solid black;
+    background-image: url(./assets/hero-bg.png);
+    padding: 100px 0;
+}
+
+.banner-text{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-text h1{
+    font-size:3.75rem;
+    font-weight:800;
+    color:#fff;
+    font-family: "Inter", sans-serif;
+}
+
+.banner-text p{
+    font-size: 1rem;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    margin-bottom:1.5rem;
+}
+
+.button{
+    display: flex;
+    gap: 10px;
+}
+
+
+.banner-img{border: 1px solid black;
+    width: 350px;
+    height:350px;
+    background-image: url(./assets/hero-circle.png);
+    margin:0 auto;
+    display: flex;
+    position: relative;
+}
+
+.new-btn{
+    color: #1a0b2e;
+    background-color: #00ff88;
+    position: absolute;
+    right: 24px;
+    padding:8px 16px;
+    font-size: 1.20rem;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    border-radius: 10000px;
+    box-shadow: 0 0 20px 3px #00ff8870;
+}
+
+.banner-img img{
+    margin:auto;
+}
+
+
+
