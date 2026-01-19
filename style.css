@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{    
+    font-family: "Inter", sans-serif;
+}
 
 .btn{
     background-image: linear-gradient(22.64deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248));
@@ -20,7 +23,8 @@
     border: none;
 }
 
-nav{ border-bottom: 1px solid rgb(69, 67, 67);
+nav{ 
+    border-bottom: 1px solid rgb(69, 67, 67);
     max-width: 1600;
     width: 100%;
     display: flex;
@@ -68,13 +72,11 @@ header{
 }
 
 .banner-container{
-    border: 1px solid black;
     background-image: url(./assets/hero-bg.png);
     padding: 100px 0;
 }
 
 .banner-text{
-    border: 1px solid black;
     display: flex;
     justify-content: center;
 }
@@ -99,7 +101,7 @@ header{
 }
 
 
-.banner-img{border: 1px solid black;
+.banner-img{
     width: 350px;
     height:350px;
     background-image: url(./assets/hero-circle.png);
@@ -121,9 +123,80 @@ header{
     box-shadow: 0 0 20px 3px #00ff8870;
 }
 
+.subscribe-btn{
+    background-color: transparent;
+    color: #00ff88;
+    border: 1px solid #00ff88;
+     font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.50rem;
+    border-radius: 10000px;
+    padding:12px 20px; 
+}
+
 .banner-img img{
     margin:auto;
 }
 
+
+
+
+
+
+.podcast-container{
+    margin: 0 12.5rem;
+    text-align: center;
+    padding-top: 3.25rem;
+    padding-bottom: 7.50rem;
+}
+
+.about-podcast{
+    padding-bottom: 80px;
+}
+.about-podcast h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.about-podcast p{
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #fff;
+    padding:0 120px;
+}
+
+hr{
+    margin: 80px 0;
+}
+
+.podcast-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #fefefe57;
+    padding-top: 80px;
+}
+
+.card{
+    padding: 0 2rem;
+}
+
+.card h1{
+    color: #00ff88;
+    font-size: 3rem;
+    font-weight: 900;
+    padding-bottom: 1rem;
+}
+
+.card p{
+color: #fff;
+font-size: 1rem;
+font-weight: 400;
+}
 
 
