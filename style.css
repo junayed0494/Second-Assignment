@@ -44,11 +44,16 @@ body{
 }
 
 .nav{ 
-    border-bottom: 1px solid rgb(69, 67, 67);
     display: flex;
     justify-content: space-between;
     align-items: center;   
     padding: 1rem 0;
+}
+
+.hr-line{
+    width:100%;
+    height: 1px;
+    background-color: rgb(69, 67, 67) ;
 }
 
 .logo{
@@ -253,6 +258,10 @@ header{
     padding-bottom: 1rem;
 }
 
+.card .fa-star{
+    font-size:2.5rem ;
+}
+
 .card p{
 color: #fff;
 font-size: 1rem;
@@ -372,7 +381,12 @@ main{
 .video-card{
     border-radius: 24px;
     background-color: #250d55;
-    padding-bottom:50px;
+    padding-bottom: 70px;
+}
+
+.video-card .video{
+    width: 265px;
+    height: 160px;
 }
 
 .video-card iframe{
@@ -707,6 +721,34 @@ footer{
     
 }
 
+
+@media screen  and (max-width:992px) {
+
+    .video-content{
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 5rem;
+
+}
+
+.video-card{
+    padding-bottom: 0;
+}
+
+iframe{
+    width: 100%;
+    height: 60vh;
+}
+
+    .card h1{
+    font-size: 2.5rem;
+}
+
+.card{
+    padding: 0 0;
+}
+    
+}
 
 
 
